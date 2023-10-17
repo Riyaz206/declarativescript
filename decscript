@@ -6,9 +6,9 @@ pipeline{
                         echo 'iam validating the code'
                         }
                                                   }
-            stage ('compilation'){
+            stage ('Testing'){
                steps{
-                        echo 'iam compiling the code'
+                        echo 'iam testing the code'
                         }
                                                 }
              stage ('install'){
